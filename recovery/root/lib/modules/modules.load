@@ -184,6 +184,7 @@ tran_expand_key.ko
 tran_fp.ko
 tran_rhi.ko
 cache-parity.ko
+sec.ko
 mtk-socinfo.ko
 leds-aw22xxx.ko
 tran_rhi.ko
