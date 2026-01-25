@@ -6,3 +6,6 @@
 
 # Inherit from mt6855-common
 $(call inherit-product, device/transsion/mt6855-common/common.mk)
+
+# some OrangeFox-specific settings
+$(call inherit-product, $(LOCAL_PATH)/fox.mk)

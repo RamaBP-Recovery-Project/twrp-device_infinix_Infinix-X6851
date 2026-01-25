@@ -45,7 +45,6 @@ mt6363-regulator.ko
 mt6369-regulator.ko
 richtap_haptic_hv.ko
 et5904.ko
-devinfo.ko
 mtk-smi.ko
 mtk-smi-dbg.ko
 mtk-icc-core.ko
@@ -65,9 +64,9 @@ cmdq_helper_inf.ko
 rt4831a_drv.ko
 mtk-ssc.ko
 mtk-mml.ko
+devinfo.ko
 mtk_panel_ext.ko
 nt37703a_fhdp_dsi_vdo_tm_tm_120hz_x6851.ko
-rm69220_fhdp_dsi_vdo_dsc_csot_csot_120hz_x6851.ko
 mediatek-drm.ko
 aee_rs.ko
 mmprofile.ko
@@ -85,6 +84,7 @@ regmap-spmi.ko
 cqhci.ko
 mtk-mmc-autok.ko
 mtk-mmc-dbg.ko
+tran-proc-bootdevice-mod.ko
 mtk-mmc.ko
 phy-mtk-ufs.ko
 rpmb.ko
@@ -129,6 +129,7 @@ mtk_pd_adapter.ko
 wireless_mt5728.ko
 wireless_ta.ko
 tran_otg.ko
+tran_perf_util.ko
 mtk_pep40.ko
 mtk_pep45.ko
 mtk_pep50.ko
@@ -166,6 +167,7 @@ clk-chk-mt6855.ko
 mtk_battery_oc_throttling.ko
 mtk_low_battery_throttling.ko
 pmic_lbat_service.ko
+pmic_lvsys_notify.ko
 mtk_dynamic_loading_throttling.ko
 mtk_bp_thl.ko
 mtk_pbm.ko
@@ -195,6 +197,8 @@ mtk-mminfra-imax.ko
 mtk_rpmsg_mbox.ko
 mtk-mbox.ko
 mtk_tinysys_ipi.ko
+adaptive-ts.ko
+focaltech_ft3683g.ko
 irq-dbg.ko
 uload_ind.ko
 load_track.ko
